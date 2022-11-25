@@ -193,17 +193,20 @@
     </div>
     <!--Основной контейнер-->
 </section>
-
+<!-- http://45.141.78.192:8000/email-sendler -->
 <article class="article article_bluebg article_second" id="How to join us">
     <h2 class="black">Вступай в нашу команду!</h2>
     <p class="white">Если хочешь делать крутые проекты вместе с нами, тогда отправляй нам свои контактные данные ниже и напиши о том, чем ты можешь быть полезен нам :) </p>
-    <form class="form">
-      <input type="email" class="form_input" placeholder="E-mail">
-      <input type="text" class="form_input" placeholder="Name">
-      <textarea class="form_textarea" placeholder="Your message"></textarea>
-      <button class="form_button" type="button">Send</button>
+    <form action="http://45.141.78.192:8000/email-sendler" class="form" method="post">
+
+      <input type="email" class="form_input" placeholder="E-mail" name="Email">
+
+      <input type="text" class="form_input" placeholder="Name" name="Name">
+
+      <textarea class="form_textarea" placeholder="Message" name="Message"></textarea>
+      <input type="submit" class="form_button" value="Send">
     </form>
-  </article>
+</article>
 
 
 </body>
