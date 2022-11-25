@@ -252,7 +252,7 @@ font-weight: 400px;
 h2 {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
 }
 
@@ -275,7 +275,7 @@ h2 {
 }
 
 .article_bluebg::before {
-  background: rgb(216 216 216 / 50%);
+ 
 }
 
 .article_first,
@@ -283,18 +283,19 @@ h2 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-bottom: 30px;
 }
 
 
-.article_second {
+/*.article_second {
   background-image: url("backgr.jpg");
 }
-
+*/
 .form {
-  position: relative;
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
+      position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .form_input,
@@ -360,4 +361,15 @@ h2 {
   color: #000;
   font-size: 30px;
 
+}
+.FORM{
+    display: flex;
+    text-align: center;
+    background-color: #eeeeee;
+    height: 340px;
+    width: 30%;
+    min-width: 30%;
+    margin-left: 35%;
+    padding-top: 20px;
+    border-radius: 20px;
 }
